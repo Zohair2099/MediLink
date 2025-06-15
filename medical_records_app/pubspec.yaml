@@ -1,0 +1,49 @@
+name: medical_records_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ✅ Firebase & Backend
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.6.0
+  cloud_firestore: ^5.6.9
+  firebase_storage: ^12.4.7
+
+  # ✅ File & Image Management
+  file_picker: ^10.2.0
+  image_picker: ^1.0.5
+
+  # ✅ UI Essentials
+  cupertino_icons: ^1.0.8
+  flutter_animate: ^4.2.0
+  google_fonts: ^4.0.4
+
+  # ✅ Location & Maps
+  geolocator: ^10.1.0
+  google_maps_flutter: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Optional: Add assets or fonts when needed
+  # assets:
+  #   - assets/images/logo.png
+
+  # fonts:
+  #   - family: Sora
+  #     fonts:
+  #       - asset: assets/fonts/Sora-Regular.ttf
