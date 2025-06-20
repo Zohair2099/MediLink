@@ -64,16 +64,3 @@ This **Flutter-based medical records management system** is designed for **ease 
 
 ---
 
-## 🛠 Getting Started  
-
-```sh
-# Clone the repository  
-git clone <repository-url>  
-
-# Install dependencies  
-flutter pub get  
-
-# Set up Firebase (Auth, Firestore, Storage)  
-
-# Run the app  
-flutter run  
